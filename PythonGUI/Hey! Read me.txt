@@ -1,0 +1,15 @@
+I hope you have python installed in ur local pc !
+if its telling can't identify module and its already installed;
+- you can check installed modules by =: pip list
+- if problem persists then check you vscode config
+
+---INSTALL THOSE PACKAGES BY RUNNING IT IN CMD---
+
+
+pip install customtkinter
+
+pip install pandas
+pip install seaborn
+pip install scikit-learn
+pip install torch
+pip install torchsummary
