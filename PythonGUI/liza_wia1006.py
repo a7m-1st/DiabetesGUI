@@ -299,7 +299,7 @@ class DiabetesClassifierMLP(nn.Module):
     self.fc1 = nn.Linear(input_size, 64)
     self.fc2 = nn.Linear(64, 64)
     self.fc3 = nn.Linear(64, 64)
-    self.fc4 = nn.Linear(64, 2) # Two classes: red and white
+    self.fc4 = nn.Linear(64, 2) # Two classes: negative and positive
 
   def forward(self, x):
     x = torch.relu(self.fc1(x))
